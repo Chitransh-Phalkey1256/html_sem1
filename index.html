@@ -1,10 +1,201 @@
 <!DOCTYPE html>
- <html>
+<html lang="en">
+
 <head>
-  <title>BASIC HTML WBSITE</title>
-	</head>
+    <meta charset="UTF-8">
+    <title>Chitransh Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            height: 100vh;
+            font-family: 'Fira Code', monospace;
+            background-image: url("https://images.unsplash.com/photo-1555066931-4365d14bab8c");
+            background-size: cover;
+            background-position: center;
+            color: #38bdf8;
+        }
+
+
+        header {
+            background: #1f2933;
+            color: white;
+            padding: 40px;
+            text-align: center;
+            background-image: url(https://media.licdn.com/dms/image/v2/D4E16AQGq6ZZh4fET-A/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1681134529553?e=2147483647&v=beta&t=fK8118kJURYu509Ovn7lf-Xr7Q5A_ipb19ebJfwDlC4);
+        }
+
+        header h1 {
+            font-size: 32px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 6px;
+        }
+
+        h2 {
+            color: #1f2933;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .skills li {
+            display: inline-block;
+            background: #e2e8f0;
+            padding: 8px 12px;
+            margin: 5px;
+            border-radius: 4px;
+        }
+
+        .item {
+            margin-bottom: 15px;
+        }
+
+        .links a {
+            display: inline-block;
+            margin-right: 15px;
+            text-decoration: none;
+            color: #2563eb;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #1f2933;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
 <body>
-<h1>WELCOME!</h1>
-<p><u>THIS IS A BASIC HTML DOCUMENT</u></p>
+
+    <header>
+        <h1>Chitransh Phalkey</h1>
+        <p>College Student | Aspiring Software Developer</p>
+    </header>
+
+    <section>
+        <h2>Basic Information</h2>
+        <p><strong>Email:</strong> chitranshphalkey@email.com</p>
+        <p><strong>Phone:</strong> +91 7972415445 </p>
+        <p><strong>Location:</strong> City:Warud, Country:India</p>
+    </section>
+
+    <section>
+        <h2>Career Objective</h2>
+        <p>
+            Motivated and detail-oriented college student seeking opportunities to apply
+            programming and problem-solving skills in a professional environment while
+            continuously learning and growing as a software developer.
+        </p>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript (Basics)</li>
+            <li>Python </li>
+            <li>Git & GitHub</li>
+            <li>Problem Solving</li>
+            <li>DSA Concepts</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+
+        <div class="item">
+            <p><strong> Education (Nursery – 10th)</strong></p>
+            <p>New Orange City Convent School, Warud, District Amravati</p>
+        </div>
+        <div class="item">
+            <p><strong>Higher Secondary Education (11th – 12th)</strong></p>
+            <p>Decent Junior College, Nagpur</p>
+        </div>
+        <div class="item">
+            <p><strong>JEE</strong></p>
+            <p>ALLEN CAREER INSTITUTE</p>
+        </div>
+        <div class="item">
+            <p><strong>Bachelor of Technology – Computer Science</strong></p>
+            <p>Symbiosis institute of technology International University,Nagpur</p>
+            <p>2025 – 2029</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <div class="item">
+            <p><strong>Student Portfolio Website</strong></p>
+            <p>Designed a responsive portfolio using HTML and CSS.</p>
+        </div>
+        <div class="item">
+            <p><strong>Calculator</strong></p>
+            <p>Make by the use of html css and basic JavaScript</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        <div class="item">
+            <p><strong>FRONT END DEVELOPER</strong></p>
+            <p>Worked on basic web development tasks and learned real-world coding practices.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Certifications</h2>
+        <ul>
+            <li>HTML & CSS Certification – Online Platform</li>
+            <li>Python Programming Certificate</li>
+            <li>Udemy course certification</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Achievements</h2>
+        <ul>
+            <li>Participated in College Hackathon</li>
+            <li>certifiication in C language</li>
+            <li>Having more knowledge on web development</li>
+            <li>having certifications in different skills</li>
+        </ul>
+    </section>
+
+    <section class="links">
+        <h2>Profiles</h2>
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/chitransh-p-249049365" target="_blank">LinkedIn</a>
+    </section>
+
+    <footer>
+        <p>© All rights reserved 2026 chitranshphalkey | Student Portfolio</p>
+    </footer>
+
 </body>
+
 </html>
